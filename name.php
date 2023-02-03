@@ -22,16 +22,10 @@ if(isset($firstname) && isset($lastname) && isset($age)) {
         echo "Your age in days is " . $age * 365; 
         }
         else 
-        echo "You are missing a required parameters."; 
+        echo "<font color='red'>". "You are missing a required parameters."."</font>"; 
 }
 else 
-echo "Not all data is set". 
-
-
-
-//if(empty())
-
-
+echo "<font color='red'>". "Not all data is set"."</font>";  
 ?>
 
 
@@ -42,7 +36,7 @@ echo "Not all data is set".
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Week 2</title>
 </head>
 <body>
     
